@@ -9,10 +9,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,17 +28,29 @@
         </div>
     </nav>
 
-    <h1>Stay Organized</h1>
+    <div class="container">
+        <div class="card">
+            <h1>Stay Organized</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit...</p>
+        </div>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus consequuntur ullam pariatur accusamus amet
-        temporibus at impedit alias! Incidunt veniam numquam non doloremque architecto molestias, laudantium
-        praesentium eum adipisci beatae.</p>
+
+        <!-- Sticky notes -->
+        <div class="container bootstrap snippets bootdey">
+            <div class="row">
+                <ul class="notes" id="sticky-container">
+                    <!-- Existing sticky notes will be dynamically added here -->
+                </ul>
+                <button class="btn btn-success" onclick="addStickyNote()">Add Sticky Note</button>
+            </div>
+        </div>
+    </div>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+        <script src="/scripts/index.js"></script>
 </body>
-
 </html>
-
-

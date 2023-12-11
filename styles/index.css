@@ -1,3 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
+    /* Gradient background */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 h1 {
     text-align: center;
+    color: #343a40;
+    margin-top: 50px;
+    font-size: 2.5em;
 }
+
+p {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #6c757d;
+    line-height: 1.5;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-nav a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav a:hover {
+    color: #17a2b8;
+}
+
+.icon {
+    font-size: 1.5em;
+    margin-right: 5px;
+}
+

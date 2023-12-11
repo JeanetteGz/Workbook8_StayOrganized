@@ -1,3 +1,46 @@
 h1 {
     text-align: center;
 }
+#user-dropdown {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    appearance: none;
+    background: url('data:image/svg+xml;utf8,<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 10l5.355-5.355a1 1 0 0 0-1.414-1.414L8 7.586l-4.94-4.94a1 1 0 0 0-1.414 1.414L8 10z"/></svg>') no-repeat right 10px center/15px;
+    cursor: pointer;
+}
+
+#user-dropdown::-ms-expand {
+    display: none;
+}
+
+#user-dropdown option {
+    font-size: 16px;
+}
+
+#user-dropdown:hover,
+#user-dropdown:focus {
+    border-color: #9900ff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#todo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for each ToDo card */
+.todo-card {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+}
