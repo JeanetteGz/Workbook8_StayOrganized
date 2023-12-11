@@ -62,7 +62,7 @@ function displayTodos(todos) {
                     <p class="card-text">Category: ${todo.category}</p>
                     <p class="card-text">Deadline: ${todo.deadline}</p>
                     <p class="card-text">Priority: ${todo.priority}</p>
-                    <p class="card-text">Completed: ${todo.completed ? 'Yes' : 'No'}</p>
+                    <p class="card-text">Completed: ${todo.completed ? 'true' : 'false'}</p>
                 </div>
             `;
             todoContainer.appendChild(todoCard);
