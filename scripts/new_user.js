@@ -1,10 +1,9 @@
-// new_user.js
 window.onload = () => {
     let registrationForm = document.getElementById("registration-form");
     let nameInputEl = document.getElementById("name");
     let usernameInputEl = document.getElementById("username");
     let passwordInputEl = document.getElementById("password");
-    
+
 
     registrationForm.onsubmit = (e) => {
         e.preventDefault();
@@ -24,11 +23,12 @@ window.onload = () => {
         })
             .then((res) => res.json())
             .then(() => {
-            // Redirect to the home page
-                location.href = `/index.html`;
-        }).catch((err) => {
-            console.error(err);
-        });
+                // Redirect to the home page
+                window.location.href = "index.html";
+            })
+            .catch((err) => {
+                console.error(err);
+            });
     };
 };
 

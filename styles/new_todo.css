@@ -1,16 +1,16 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f8f9fa; /* Light gray background */
+    background-color: #f8f9fa;
 }
 
 h1 {
     text-align: center;
-    color: #343a40; /* Dark text color */
+    color: #343a40;
 }
 
 nav {
-    background-color: #343a40; /* Dark navbar background color */
-    color: #fff; /* Navbar text color */
+    background-color: #343a40;
+    color: #fff;
 }
 
 form {
@@ -25,14 +25,14 @@ form {
 label {
     display: block;
     margin-bottom: 8px;
-    color: #495057; /* Label text color */
+    color: #495057;
 }
 
 input {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ced4da; /* Input border color */
+    border: 1px solid #ced4da;
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -47,14 +47,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 input[type="submit"] {
-    background-color: #007bff; /* Submit button background color */
-    color: #fff; /* Submit button text color */
+    background-color: #6f00ff;
+    color: #fff;
     border: none;
     padding: 10px 15px;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 15px;
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3; /* Hover color for submit button */
+    background-color: #0056b3;
 }

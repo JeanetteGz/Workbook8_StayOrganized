@@ -6,9 +6,8 @@ window.onload = () => {
     let userIdInputEl = document.getElementById("userId");
     let categoryInputEl = document.getElementById("category");
     let descriptionInputEl = document.getElementById("description");
-    let dateInputEl = document.getElementById("date");
+    let deadlineInputEl = document.getElementById("deadline");
     let priorityInputEl = document.getElementById("priority");
-    let completedInputEl = document.getElementById("completed");
 
     createTodoForm.onsubmit = (e) => {
         e.preventDefault();
@@ -17,9 +16,8 @@ window.onload = () => {
             userid: userIdInputEl.value,
             category: categoryInputEl.value,
             description: descriptionInputEl.value,
-            date: dateInputEl.value,
+            deadline: deadlineInputEl.value,
             priority: priorityInputEl.value,
-            completed: completedInputEl.value
         };
 
         fetch("http://localhost:8083/api/todos", {
