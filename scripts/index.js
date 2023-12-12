@@ -31,8 +31,6 @@ function editNoteContent(element) {
     titleElement.contentEditable = true;
     contentElement.contentEditable = true;
 
-    // Focus on the title element
-    titleElement.focus();
 
     // Change the edit button to a save button
     element.innerHTML = '<i class="fa fa-save"></i>';
@@ -53,6 +51,7 @@ function editNoteContent(element) {
     };
 }
 
+// Time for stciky note
 function getCurrentTime() {
     const now = new Date();
     const hours = now.getHours().toString().padStart(2, '0');

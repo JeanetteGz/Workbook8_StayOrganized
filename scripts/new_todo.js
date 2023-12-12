@@ -1,5 +1,3 @@
-
-//Still needs work
 window.onload = () => {
     let createTodoForm = document.getElementById("createTodo-form");
     // All form fields
