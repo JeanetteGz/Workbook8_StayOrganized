@@ -19,3 +19,17 @@ Introducing the Stay Organized ToDo List Web Application—an interactive and us
 <h1 align="center">Technologies Used</h1>
 
 * JavaScript, CSS3, HTML5, Bootstrap
+
+<h1 align="center">Screenshots</h1>
+
+Homepage
+<img src="/images/readme-images/home.jpeg">
+
+Todo Page
+<img src="/images/readme-images/todo-tasks.jpeg">
+
+Create A ToDo Page
+<img src="/images/readme-images/create-todo.jpeg">
+
+Create A User
+<img src="/images/readme-images/create-user.jpeg">
