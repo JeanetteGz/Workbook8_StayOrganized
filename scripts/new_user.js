@@ -21,10 +21,14 @@ window.onload = () => {
             },
             body: JSON.stringify(currentFormData),
         })
-            .then((res) => res.json())
-            .then(() => {
-                // Redirect to the home page
-                window.location.href = "index.html";
+            .then((res) => {
+                if (res.ok) {
+                    res.json()
+                }
+            })
+            .then((data) => {
+                console.log(data);
+                location.href = 'index.html';
             })
             .catch((err) => {
                 console.error(err);
